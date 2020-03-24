@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	email = tusaev.dv@phystech.edu
+	name = tusaeff
+# Please adapt and uncomment the following lines:
+#	name = Дмитрий Тусаев
+#	email = tusaev.dv@phystech.edu
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
